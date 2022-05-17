@@ -108,41 +108,44 @@
                 fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
               >
                 <div class="form-group">
-                  <label> Nom </label>
+                  <label id="Nom"> Nom </label>
                   <input
                     id="name"
                     type="text"
-                    aria-labelledby="Nom de famille"
+                    aria-labelledby="Nom"
                     class="form-control"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label> Adresse email </label>
+                  <label id="email"> Adresse email </label>
                   <input
                     id="email"
                     class="form-control"
                     type="email"
+                    aria-labelledby="email"
                     required
                   />
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? </label>
+                  <label id="connu"> Comment nous avez-vous connu ? </label>
                   <input
                     class="form-control"
+                    aria-labelledby="connu"
                     type="text"
                     required
                     id="input_504"
                   />
                 </div>
                 <div class="form-group">
-                  <label>
+                  <label id="brief-project">
                     Brief de votre projet (Ajoutez autant de détails que
                     nécessaire)<br /> </label
                   ><textarea
                     id="message"
                     type="text"
                     class="form-control"
+                    aria-labelledby="brief-project"
                     rows="4"
                     cols="50"
                     required
@@ -178,15 +181,18 @@
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-center white text-size-medium">
+              <p
+                class="text-center white text-size-large contrastx2 weightbold"
+              >
                 Agence La Panthère - Agence web basée à Lyon.<br />
               </p>
               <div class="row row-no-gutters social">
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://twitter.com/home"
-                      ><span class="fa fa-twitter icon-md"></span
-                    ></a>
+                      ><span class="fa fa-twitter icon-md"></span>
+                      <br />Twitter</a
+                    >
                   </div>
                 </div>
                 <div class="col-sm-3">
@@ -195,15 +201,17 @@
                       class="social"
                       href="https://www.facebook.com/"
                       alt="facebook"
-                      ><span class="fa fa-facebook icon-md"></span
-                    ></a>
+                      ><span class="fa fa-facebook icon-md"></span>
+                      <br />Facebook</a
+                    >
                   </div>
                 </div>
                 <div class="col-sm-3">
                   <div class="text-center">
                     <a class="social" href="https://dribbble.com/" alt="dribble"
-                      ><span class="fa fa-dribbble icon-md"></span
-                    ></a>
+                      ><span class="fa fa-dribbble icon-md"></span>
+                      <br />Dribbble</a
+                    >
                   </div>
                 </div>
                 <div class="col-sm-3">
@@ -212,8 +220,9 @@
                       class="social"
                       href="https://www.instagram.com/?hl=fr"
                       alt="instagram"
-                      ><span class="fa fa-instagram icon-md"></span
-                    ></a>
+                      ><span class="fa fa-instagram icon-md"></span>
+                      <br />Instagram</a
+                    >
                   </div>
                 </div>
               </div>
