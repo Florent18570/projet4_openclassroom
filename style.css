@@ -1053,3 +1053,7 @@ h4 {
     text-align: center;
   }
 }
+
+.fa {
+  font-size: 45px !important;
+}
