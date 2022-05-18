@@ -685,7 +685,7 @@ p {
 }
 
 .social {
-  max-width: 400px;
+  max-width: 500px;
   margin: auto auto auto auto;
 }
 
@@ -1056,4 +1056,9 @@ h4 {
 
 .fa {
   font-size: 45px !important;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
