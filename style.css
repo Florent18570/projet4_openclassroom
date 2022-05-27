@@ -773,10 +773,6 @@ h4 {
   color: #f3976c !important;
 }
 
-.contrastx2 {
-  filter: contrast(200%);
-}
-
 .btn-atomic-tangerine {
   background: #942700;
   color: #ffffff !important;
@@ -1033,10 +1029,6 @@ h4 {
 
 .text-size-large {
   font-size: 25px;
-}
-
-.contrastx15 {
-  filter: contrast(150%);
 }
 
 .text-size-medium {
